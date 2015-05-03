@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA1811071AE5590A00FDBB66 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1811061AE5590A00FDBB66 /* CoreMotion.framework */; };
+		EA3E09CA1AE693A200BDF76D /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C41AE693A200BDF76D /* back.jpg */; };
+		EA3E09CB1AE693A200BDF76D /* bot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C51AE693A200BDF76D /* bot.jpg */; };
+		EA3E09CC1AE693A200BDF76D /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C61AE693A200BDF76D /* left.jpg */; };
+		EA3E09CD1AE693A200BDF76D /* middle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C71AE693A200BDF76D /* middle.jpg */; };
+		EA3E09CE1AE693A200BDF76D /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C81AE693A200BDF76D /* right.jpg */; };
+		EA3E09CF1AE693A200BDF76D /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3E09C91AE693A200BDF76D /* top.jpg */; };
+		EA7454A61AE2503B00D43A04 /* SceneWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7454A51AE2503B00D43A04 /* SceneWrapper.swift */; };
+		EA7454A81AE252AA00D43A04 /* StereoCameraNodeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7454A71AE252AA00D43A04 /* StereoCameraNodeWrapper.swift */; };
+		EA92CC6F1AF5191D00234802 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC5B1AF5191D00234802 /* Car.cpp */; };
+		EA92CC701AF5191D00234802 /* Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC5D1AF5191D00234802 /* Contact.cpp */; };
+		EA92CC711AF5191D00234802 /* Differential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC5F1AF5191D00234802 /* Differential.cpp */; };
+		EA92CC721AF5191D00234802 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC611AF5191D00234802 /* Engine.cpp */; };
+		EA92CC731AF5191D00234802 /* GearBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC631AF5191D00234802 /* GearBox.cpp */; };
+		EA92CC741AF5191D00234802 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC651AF5191D00234802 /* Interface.cpp */; };
+		EA92CC751AF5191D00234802 /* Matrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC671AF5191D00234802 /* Matrix3.cpp */; };
+		EA92CC761AF5191D00234802 /* TorqueConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC691AF5191D00234802 /* TorqueConverter.cpp */; };
+		EA92CC771AF5191D00234802 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC6B1AF5191D00234802 /* Util.cpp */; };
+		EA92CC781AF5191D00234802 /* Wheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA92CC6D1AF5191D00234802 /* Wheel.cpp */; };
 		EAFD54D61ADCE98100A9183A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD54D51ADCE98100A9183A /* AppDelegate.swift */; };
 		EAFD54D81ADCE98100A9183A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFD54D71ADCE98100A9183A /* art.scnassets */; };
 		EAFD54DA1ADCE98100A9183A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD54D91ADCE98100A9183A /* GameViewController.swift */; };
@@ -27,6 +46,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA1811061AE5590A00FDBB66 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EA3E09C41AE693A200BDF76D /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		EA3E09C51AE693A200BDF76D /* bot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bot.jpg; sourceTree = "<group>"; };
+		EA3E09C61AE693A200BDF76D /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		EA3E09C71AE693A200BDF76D /* middle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = middle.jpg; sourceTree = "<group>"; };
+		EA3E09C81AE693A200BDF76D /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		EA3E09C91AE693A200BDF76D /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		EA7454A51AE2503B00D43A04 /* SceneWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneWrapper.swift; sourceTree = "<group>"; };
+		EA7454A71AE252AA00D43A04 /* StereoCameraNodeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoCameraNodeWrapper.swift; sourceTree = "<group>"; };
+		EA74B41B1AF4CE8200F6C205 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA92CC5B1AF5191D00234802 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = "C++/Car.cpp"; sourceTree = "<group>"; };
+		EA92CC5C1AF5191D00234802 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = "C++/Car.h"; sourceTree = "<group>"; };
+		EA92CC5D1AF5191D00234802 /* Contact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Contact.cpp; path = "C++/Contact.cpp"; sourceTree = "<group>"; };
+		EA92CC5E1AF5191D00234802 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = "C++/Contact.h"; sourceTree = "<group>"; };
+		EA92CC5F1AF5191D00234802 /* Differential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Differential.cpp; path = "C++/Differential.cpp"; sourceTree = "<group>"; };
+		EA92CC601AF5191D00234802 /* Differential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Differential.h; path = "C++/Differential.h"; sourceTree = "<group>"; };
+		EA92CC611AF5191D00234802 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Engine.cpp; path = "C++/Engine.cpp"; sourceTree = "<group>"; };
+		EA92CC621AF5191D00234802 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = "C++/Engine.h"; sourceTree = "<group>"; };
+		EA92CC631AF5191D00234802 /* GearBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GearBox.cpp; path = "C++/GearBox.cpp"; sourceTree = "<group>"; };
+		EA92CC641AF5191D00234802 /* GearBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GearBox.h; path = "C++/GearBox.h"; sourceTree = "<group>"; };
+		EA92CC651AF5191D00234802 /* Interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Interface.cpp; path = "C++/Interface.cpp"; sourceTree = "<group>"; };
+		EA92CC661AF5191D00234802 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface.h; path = "C++/Interface.h"; sourceTree = "<group>"; };
+		EA92CC671AF5191D00234802 /* Matrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix3.cpp; path = "C++/Matrix3.cpp"; sourceTree = "<group>"; };
+		EA92CC681AF5191D00234802 /* Matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix3.h; path = "C++/Matrix3.h"; sourceTree = "<group>"; };
+		EA92CC691AF5191D00234802 /* TorqueConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TorqueConverter.cpp; path = "C++/TorqueConverter.cpp"; sourceTree = "<group>"; };
+		EA92CC6A1AF5191D00234802 /* TorqueConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TorqueConverter.h; path = "C++/TorqueConverter.h"; sourceTree = "<group>"; };
+		EA92CC6B1AF5191D00234802 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = "C++/Util.cpp"; sourceTree = "<group>"; };
+		EA92CC6C1AF5191D00234802 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = "C++/Util.h"; sourceTree = "<group>"; };
+		EA92CC6D1AF5191D00234802 /* Wheel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wheel.cpp; path = "C++/Wheel.cpp"; sourceTree = "<group>"; };
+		EA92CC6E1AF5191D00234802 /* Wheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wheel.h; path = "C++/Wheel.h"; sourceTree = "<group>"; };
 		EAFD54D01ADCE98100A9183A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFD54D41ADCE98100A9183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAFD54D51ADCE98100A9183A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1811071AE5590A00FDBB66 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +108,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA74B3F11AF4CB4000F6C205 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA3E09C41AE693A200BDF76D /* back.jpg */,
+				EA3E09C51AE693A200BDF76D /* bot.jpg */,
+				EA3E09C61AE693A200BDF76D /* left.jpg */,
+				EA3E09C71AE693A200BDF76D /* middle.jpg */,
+				EA3E09C81AE693A200BDF76D /* right.jpg */,
+				EA3E09C91AE693A200BDF76D /* top.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EA74B3F31AF4CBBC00F6C205 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				EA92CC5B1AF5191D00234802 /* Car.cpp */,
+				EA92CC5C1AF5191D00234802 /* Car.h */,
+				EA92CC5D1AF5191D00234802 /* Contact.cpp */,
+				EA92CC5E1AF5191D00234802 /* Contact.h */,
+				EA92CC5F1AF5191D00234802 /* Differential.cpp */,
+				EA92CC601AF5191D00234802 /* Differential.h */,
+				EA92CC611AF5191D00234802 /* Engine.cpp */,
+				EA92CC621AF5191D00234802 /* Engine.h */,
+				EA92CC631AF5191D00234802 /* GearBox.cpp */,
+				EA92CC641AF5191D00234802 /* GearBox.h */,
+				EA92CC651AF5191D00234802 /* Interface.cpp */,
+				EA92CC661AF5191D00234802 /* Interface.h */,
+				EA92CC671AF5191D00234802 /* Matrix3.cpp */,
+				EA92CC681AF5191D00234802 /* Matrix3.h */,
+				EA92CC691AF5191D00234802 /* TorqueConverter.cpp */,
+				EA92CC6A1AF5191D00234802 /* TorqueConverter.h */,
+				EA92CC6B1AF5191D00234802 /* Util.cpp */,
+				EA92CC6C1AF5191D00234802 /* Util.h */,
+				EA92CC6D1AF5191D00234802 /* Wheel.cpp */,
+				EA92CC6E1AF5191D00234802 /* Wheel.h */,
+			);
+			name = "C++";
+			sourceTree = "<group>";
+		};
 		EAFD54C71ADCE98000A9183A = {
 			isa = PBXGroup;
 			children = (
+				EA1811061AE5590A00FDBB66 /* CoreMotion.framework */,
 				EAFD54D21ADCE98100A9183A /* test */,
 				EAFD54EA1ADCE98100A9183A /* testTests */,
 				EAFD54D11ADCE98100A9183A /* Products */,
@@ -79,6 +170,11 @@
 		EAFD54D21ADCE98100A9183A /* test */ = {
 			isa = PBXGroup;
 			children = (
+				EA74B3F31AF4CBBC00F6C205 /* C++ */,
+				EA74B3F11AF4CB4000F6C205 /* Images */,
+				EA7454A71AE252AA00D43A04 /* StereoCameraNodeWrapper.swift */,
+				EA74B41B1AF4CE8200F6C205 /* test-Bridging-Header.h */,
+				EA7454A51AE2503B00D43A04 /* SceneWrapper.swift */,
 				EAFD54D51ADCE98100A9183A /* AppDelegate.swift */,
 				EAFD54D71ADCE98100A9183A /* art.scnassets */,
 				EAFD54D91ADCE98100A9183A /* GameViewController.swift */,
@@ -195,9 +291,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3E09CF1AE693A200BDF76D /* top.jpg in Resources */,
+				EA3E09CE1AE693A200BDF76D /* right.jpg in Resources */,
 				EAFD54E21ADCE98100A9183A /* LaunchScreen.xib in Resources */,
+				EA3E09CC1AE693A200BDF76D /* left.jpg in Resources */,
+				EA3E09CB1AE693A200BDF76D /* bot.jpg in Resources */,
 				EAFD54DF1ADCE98100A9183A /* Images.xcassets in Resources */,
+				EA3E09CD1AE693A200BDF76D /* middle.jpg in Resources */,
 				EAFD54D81ADCE98100A9183A /* art.scnassets in Resources */,
+				EA3E09CA1AE693A200BDF76D /* back.jpg in Resources */,
 				EAFD54DD1ADCE98100A9183A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +318,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA92CC701AF5191D00234802 /* Contact.cpp in Sources */,
+				EA92CC731AF5191D00234802 /* GearBox.cpp in Sources */,
+				EA92CC721AF5191D00234802 /* Engine.cpp in Sources */,
+				EA92CC771AF5191D00234802 /* Util.cpp in Sources */,
+				EA92CC741AF5191D00234802 /* Interface.cpp in Sources */,
+				EA92CC781AF5191D00234802 /* Wheel.cpp in Sources */,
+				EA92CC761AF5191D00234802 /* TorqueConverter.cpp in Sources */,
+				EA92CC751AF5191D00234802 /* Matrix3.cpp in Sources */,
+				EA92CC711AF5191D00234802 /* Differential.cpp in Sources */,
 				EAFD54DA1ADCE98100A9183A /* GameViewController.swift in Sources */,
+				EA7454A61AE2503B00D43A04 /* SceneWrapper.swift in Sources */,
+				EA7454A81AE252AA00D43A04 /* StereoCameraNodeWrapper.swift in Sources */,
 				EAFD54D61ADCE98100A9183A /* AppDelegate.swift in Sources */,
+				EA92CC6F1AF5191D00234802 /* Car.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +411,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -323,6 +438,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -332,6 +448,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -343,6 +460,7 @@
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +471,7 @@
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +528,7 @@
 				EAFD54F31ADCE98100A9183A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAFD54F41ADCE98100A9183A /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +537,7 @@
 				EAFD54F61ADCE98100A9183A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
